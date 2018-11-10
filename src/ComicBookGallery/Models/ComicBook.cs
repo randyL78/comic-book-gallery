@@ -13,5 +13,12 @@ namespace WebApplication1.Models
         public string DescriptionHtml { get; set; }
         public Artists[] Artists { get; set; }
         public bool Favorite { get; set; }
+
+        public string DisplayText => SeriesTitle + " #" + IssueNumber;
+
+        public string CoverImageFileName =>
+            SeriesTitle
+                .Replace(" ", "-")
+                .ToLower() + "-" + IssueNumber + ".jpg";
     }
 }

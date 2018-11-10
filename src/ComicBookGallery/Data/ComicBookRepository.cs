@@ -12,6 +12,7 @@ namespace WebApplication1.Data
         {
             new ComicBook
             {
+                Id = 1,
                 SeriesTitle = "The Amazing Spider-Man",
                 IssueNumber = 700,
                 DescriptionHtml =
@@ -28,6 +29,7 @@ namespace WebApplication1.Data
             },
             new ComicBook
             {
+                Id = 2,
                 SeriesTitle = "The Amazing Spider-Man",
                 IssueNumber = 657,
                 DescriptionHtml =
@@ -44,6 +46,7 @@ namespace WebApplication1.Data
             },
             new ComicBook
             {
+                Id = 3,
                 SeriesTitle = "Bone",
                 IssueNumber = 50,
                 DescriptionHtml =
